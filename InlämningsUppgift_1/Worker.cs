@@ -55,8 +55,7 @@ namespace InlämningsUppgift_1
                          _logger.LogInformation($"Failed. - {ex.Message}");
                 }
                 
-                _logger.LogInformation("Worker running at: {time}", DateTimeOffset.Now);
-                await Task.Delay(5000, stoppingToken);
+                            await Task.Delay(60*1000, stoppingToken);
             }
         }
     }

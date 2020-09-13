@@ -1,0 +1,10 @@
+﻿{
+  "profiles": {
+    "Assignment1_WorkerService": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "DOTNET_ENVIRONMENT": "Development"
+      }
+    }
+  }
+}

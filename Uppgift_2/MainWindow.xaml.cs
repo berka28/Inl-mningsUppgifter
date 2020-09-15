@@ -13,7 +13,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace InlämningsUppgift_2
+namespace Uppgift_2
 {
     /// <summary>
     /// Interaction logic for MainWindow.xaml
@@ -23,6 +23,31 @@ namespace InlämningsUppgift_2
         public MainWindow()
         {
             InitializeComponent();
+        }
+
+        private void btnMessages_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void btnContacts_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void btnCalendar_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void btnTasks_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void btnSettings_Click(object sender, RoutedEventArgs e)
+        {
+
         }
     }
 }

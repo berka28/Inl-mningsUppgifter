@@ -4,8 +4,20 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Uppgift_2"
+        xmlns:models="clr-namespace:Uppgift_2.Models"
+        xmlns:views="clr-namespace:Uppgift_2.Views"
+        
         mc:Ignorable="d"
         Title="MainWindow" Height="720" Width="1200">
+
+    <Window.Resources>
+        <DataTemplate x:Name="MessageViewTemplate" DataType="{x:Type models:MessageViewModel}">
+            <views:MessageViewControl DataContext="{Binding}" />
+        </DataTemplate>
+    </Window.Resources>
+
+    
+    
     <Grid>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="50"/>
@@ -15,11 +27,12 @@
 
 
         <Grid Grid.Column="0" Background="#FF4957EA"/>
-        <Grid Grid.Column="1" Background="#FF8C94E8"/>
 
-        <Grid
-            x:Name="mainMeny_Grid" Grid.Column="1" Background="#FF8C94E8">
-            <StackPanel>
+
+       
+            
+            <StackPanel x:Name="mainMeny_Grid" Grid.Column="1" Background="#FF8C94E8">
+                
                 <Button x:Name="btnMessages" Click="btnMessages_Click" Background="Transparent" Margin="0,460,0,0" BorderThickness="0" FontFamily="Century Gothic" FontSize="14" Foreground="White" Padding="20,15,0,10" HorizontalContentAlignment="Left">
                     <StackPanel Orientation="Horizontal">
                         <TextBlock Margin="15,0,0,0" Text="Messages" />
@@ -49,13 +62,17 @@
                         <TextBlock Margin="15,0,0,0" Text="Settings" />
                     </StackPanel>
                 </Button>
-
+                
+                
+                
             </StackPanel>
 
-        </Grid>
+            <ContentControl Grid.Column="2" Content="{Binding}"/>
 
-        <Grid x:Name="subMeny_grid1" Grid.Column="2" Background="#FFD1D4F0" />
-        <Grid x:Name="subMeny_grid2" Grid.Column="2" Background="#FFD1D4F0" />
+
+
+        
+        
     </Grid>
     
 </Window>

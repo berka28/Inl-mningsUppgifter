@@ -1,0 +1,56 @@
+﻿<UserControl x:Class="Uppgift_2.Views.MessageViewControl"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:Uppgift_2.Views"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="200" />
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+        
+        
+
+        <StackPanel Grid.Column="0">
+
+            <TextBlock x:Name="messages" Text="Messages" FontSize="18" FontWeight="Bold" />
+            <Button x:Name="messageButton1" Content="Message 1" Click="messageButton1_Click" Margin="0,70,0,0" Padding="20,20,0,10" />
+            <Button x:Name="messageButton2" Content="Message 2" Click="messageButton2_Click" Padding="20,20,0,10"/>
+            <Button x:Name="messageButton3" Content="Message 3" Click="messageButton3_Click" Padding="20,20,0,10"/>
+            <Button x:Name="messageButton4" Content="Message 4" Click="messageButton4_Click" Padding="20,20,0,10"/>
+            <Button x:Name="messageButton5" Content="Message 5" Click="messageButton5_Click" Padding="20,20,0,10"/>
+            <Button x:Name="messageButton6" Content="Message 6" Click="messageButton6_Click" Padding="20,20,0,10"/>
+            <Button x:Name="messageButton7" Content="Message 7" Click="messageButton7_Click" Padding="20,20,0,10"/>
+            <Button x:Name="messageButton8" Content="Message 8" Click="messageButton8_Click" Padding="20,20,0,10"/>
+            
+
+        </StackPanel>
+
+        <Grid Grid.Column="1" Margin="20">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="auto"/>
+                <RowDefinition Height="auto" />
+                <RowDefinition Height="*" />
+            </Grid.RowDefinitions>
+
+            <StackPanel Grid.Row="0" >
+                <TextBlock x:Name="subject" Text="" FontSize="18" FontWeight="Bold"/>
+            </StackPanel>
+
+            <Grid Grid.Row="1" Margin="0,15,0,15">
+
+                <StackPanel>
+                    <TextBlock x:Name="from" Text="" />
+                    <TextBlock x:Name="to" Text="" FontSize="10"/>
+                </StackPanel>
+   
+            </Grid>
+            <TextBlock Grid.Row="2" x:Name="body1" TextWrapping="Wrap" Text=""/>
+
+        </Grid>
+ 
+    </Grid>
+</UserControl>

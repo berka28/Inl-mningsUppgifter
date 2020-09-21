@@ -12,6 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using Uppgift_2.Models;
 
 namespace Uppgift_2
 {
@@ -27,7 +28,7 @@ namespace Uppgift_2
 
         private void btnMessages_Click(object sender, RoutedEventArgs e)
         {
-
+            DataContext = new MessageViewModel();
         }
 
         private void btnContacts_Click(object sender, RoutedEventArgs e)

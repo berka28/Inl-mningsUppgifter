@@ -5,29 +5,46 @@
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              xmlns:local="clr-namespace:Uppgift_2.Views"
              mc:Ignorable="d" 
-             d:DesignHeight="450" d:DesignWidth="800">
+             d:DesignHeight="720" d:DesignWidth="1200">
     <Grid>
         <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="200" />
+            <ColumnDefinition Width="400" />
             <ColumnDefinition Width="*" />
         </Grid.ColumnDefinitions>
-        
-        
 
-        <StackPanel Grid.Column="0">
+        <Grid Grid.Column="0" Margin="20">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="60" />
+                <RowDefinition Height="*" />
+            </Grid.RowDefinitions>
 
-            <TextBlock x:Name="messages" Text="Messages" FontSize="18" FontWeight="Bold" />
-            <Button x:Name="messageButton1" Content="Message 1" Click="messageButton1_Click" Margin="0,70,0,0" Padding="20,20,0,10" />
-            <Button x:Name="messageButton2" Content="Message 2" Click="messageButton2_Click" Padding="20,20,0,10"/>
-            <Button x:Name="messageButton3" Content="Message 3" Click="messageButton3_Click" Padding="20,20,0,10"/>
-            <Button x:Name="messageButton4" Content="Message 4" Click="messageButton4_Click" Padding="20,20,0,10"/>
-            <Button x:Name="messageButton5" Content="Message 5" Click="messageButton5_Click" Padding="20,20,0,10"/>
-            <Button x:Name="messageButton6" Content="Message 6" Click="messageButton6_Click" Padding="20,20,0,10"/>
-            <Button x:Name="messageButton7" Content="Message 7" Click="messageButton7_Click" Padding="20,20,0,10"/>
-            <Button x:Name="messageButton8" Content="Message 8" Click="messageButton8_Click" Padding="20,20,0,10"/>
-            
+            <StackPanel Grid.Column="0" Grid.Row="0" Background="#FFCACDF0" >
+                <TextBlock x:Name="messages" Text="Messages" HorizontalAlignment="Center" FontSize="18" FontWeight="Bold" Padding="0,20,0,00" />
+            </StackPanel>
 
-        </StackPanel>
+
+
+            <StackPanel Grid.Column="0" Grid.Row="1" >
+
+
+
+                <Button x:Name="messageButton1" Click="messageButton1_Click"  />
+                <StackPanel Orientation="Vertical" Background="#FFCACDF0">
+                    <TextBlock Text="From Contact 1" Margin="20,15,0,10" FontWeight="Bold" FontSize="18"  />
+                    <TextBlock Text="Short description" Margin="20,0,0,10" />
+                </StackPanel>
+                <Button x:Name="messageButton2" Content="Message 2" Click="messageButton2_Click" Padding="20,30,0,25" Background="#FFCACDF0"/>
+                <Button x:Name="messageButton3" Content="Message 3" Click="messageButton3_Click" Padding="20,30,0,25" Background="#FFCACDF0"/>
+                <Button x:Name="messageButton4" Content="Message 4" Click="messageButton4_Click" Padding="20,30,0,25" Background="#FFCACDF0"/>
+                <Button x:Name="messageButton5" Content="Message 5" Click="messageButton5_Click" Padding="20,30,0,25" Background="#FFCACDF0"/>
+                <Button x:Name="messageButton6" Content="Message 6" Click="messageButton6_Click" Padding="20,30,0,25" Background="#FFCACDF0"/>
+                <Button x:Name="messageButton7" Content="Message 7" Click="messageButton7_Click" Padding="20,30,0,25" Background="#FFCACDF0"/>
+                <Button x:Name="messageButton8" Content="Message 8" Click="messageButton8_Click" Padding="20,30,0,25" Background="#FFCACDF0"/>
+
+
+            </StackPanel>
+
+        </Grid>
 
         <Grid Grid.Column="1" Margin="20">
             <Grid.RowDefinitions>

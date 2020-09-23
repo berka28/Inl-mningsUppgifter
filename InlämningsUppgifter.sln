@@ -7,7 +7,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Assignment1_WorkerService",
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InlämningsUppgift_1", "InlämningsUppgift_1\InlämningsUppgift_1.csproj", "{90A0DC62-BC3E-435D-BCFC-4E2EAB04C0B4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Uppgift_2", "Uppgift_2\Uppgift_2.csproj", "{554109B3-D783-44CD-835C-7E8E98FFC9D1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Uppgift_2", "Uppgift_2\Uppgift_2.csproj", "{554109B3-D783-44CD-835C-7E8E98FFC9D1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Uppgift3_iothubb", "Uppgift3_iothubb\Uppgift3_iothubb.csproj", "{9CF98041-F0C7-489B-B9CE-313B40C80F0B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SharedLibraries", "SharedLibraries\SharedLibraries.csproj", "{DAE89E63-2E3B-4DB9-A2F1-649E65A6645A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +31,14 @@ Global
 		{554109B3-D783-44CD-835C-7E8E98FFC9D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{554109B3-D783-44CD-835C-7E8E98FFC9D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{554109B3-D783-44CD-835C-7E8E98FFC9D1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9CF98041-F0C7-489B-B9CE-313B40C80F0B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9CF98041-F0C7-489B-B9CE-313B40C80F0B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9CF98041-F0C7-489B-B9CE-313B40C80F0B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9CF98041-F0C7-489B-B9CE-313B40C80F0B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DAE89E63-2E3B-4DB9-A2F1-649E65A6645A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DAE89E63-2E3B-4DB9-A2F1-649E65A6645A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DAE89E63-2E3B-4DB9-A2F1-649E65A6645A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DAE89E63-2E3B-4DB9-A2F1-649E65A6645A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

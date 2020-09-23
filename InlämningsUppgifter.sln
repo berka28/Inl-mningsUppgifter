@@ -9,9 +9,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InlämningsUppgift_1", "Inl
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Uppgift_2", "Uppgift_2\Uppgift_2.csproj", "{554109B3-D783-44CD-835C-7E8E98FFC9D1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Uppgift3_iothubb", "Uppgift3_iothubb\Uppgift3_iothubb.csproj", "{9CF98041-F0C7-489B-B9CE-313B40C80F0B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Uppgift3_iothubb", "Uppgift3_iothubb\Uppgift3_iothubb.csproj", "{9CF98041-F0C7-489B-B9CE-313B40C80F0B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SharedLibraries", "SharedLibraries\SharedLibraries.csproj", "{DAE89E63-2E3B-4DB9-A2F1-649E65A6645A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SharedLibraries", "SharedLibraries\SharedLibraries.csproj", "{DAE89E63-2E3B-4DB9-A2F1-649E65A6645A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Uppgift3_1", "Uppgift3_1\Uppgift3_1.csproj", "{5640317B-73BE-433B-9055-7C87B8E32A81}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{DAE89E63-2E3B-4DB9-A2F1-649E65A6645A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DAE89E63-2E3B-4DB9-A2F1-649E65A6645A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DAE89E63-2E3B-4DB9-A2F1-649E65A6645A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5640317B-73BE-433B-9055-7C87B8E32A81}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5640317B-73BE-433B-9055-7C87B8E32A81}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5640317B-73BE-433B-9055-7C87B8E32A81}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5640317B-73BE-433B-9055-7C87B8E32A81}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

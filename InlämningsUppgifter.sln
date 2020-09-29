@@ -13,7 +13,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Uppgift3_iothubb", "Uppgift
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SharedLibraries", "SharedLibraries\SharedLibraries.csproj", "{DAE89E63-2E3B-4DB9-A2F1-649E65A6645A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Uppgift3_1", "Uppgift3_1\Uppgift3_1.csproj", "{5640317B-73BE-433B-9055-7C87B8E32A81}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Uppgift3_1", "Uppgift3_1\Uppgift3_1.csproj", "{5640317B-73BE-433B-9055-7C87B8E32A81}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzureFunctions", "AzureFunctions\AzureFunctions.csproj", "{2CBAB6D8-4C3F-4456-9402-66069CDE953F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{5640317B-73BE-433B-9055-7C87B8E32A81}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5640317B-73BE-433B-9055-7C87B8E32A81}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5640317B-73BE-433B-9055-7C87B8E32A81}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2CBAB6D8-4C3F-4456-9402-66069CDE953F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2CBAB6D8-4C3F-4456-9402-66069CDE953F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2CBAB6D8-4C3F-4456-9402-66069CDE953F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2CBAB6D8-4C3F-4456-9402-66069CDE953F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
